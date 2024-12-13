@@ -9,9 +9,9 @@ import { getDate } from '@/utilities/helpers'
 import dayjs from 'dayjs'
 
 const UpcomingEvents = () => {
-    //const [isLoading, setIsLoading] = useState(false);
+    const [isLoading, setIsLoading] = useState(false);
     
-    const { data, isLoading } = useList({
+    /*const { data, isLoading } = useList({
         resource: 'events',
         pagination: { pageSize: 5},
         sorters: [
@@ -30,7 +30,7 @@ const UpcomingEvents = () => {
         meta: {
             gqlQuery: DASHBOARD_CALENDAR_UPCOMING_EVENTS_QUERY
         }
-    });
+    });*/
     
     return (
         <Card
